@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Multiplayer-game"
+run/main_scene="uid://cobu4ng35awcg"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
