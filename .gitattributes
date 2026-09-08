@@ -1,0 +1,15 @@
+# Normalize line endings on checkin; check out platform-native.
+* text=auto
+
+# Keep LF for files where it matters regardless of platform.
+*.go       text eol=lf
+*.gd       text eol=lf
+*.mod      text eol=lf
+*.sum      text eol=lf
+*.sh       text eol=lf
+*.md       text eol=lf
+
+# Binary assets.
+*.png      binary
+*.svg      text
+*.exe      binary

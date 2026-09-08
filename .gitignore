@@ -1,0 +1,29 @@
+# --- Go server build output ---
+/game-server/game-server
+/game-server/game-server.exe
+*.exe
+*.test
+*.out
+
+# --- Godot ---
+# The editor's local cache. Generated on open; must not be tracked.
+# (Project-level import metadata such as *.import and *.uid IS tracked.)
+.godot/
+/game-client/**/export/
+/game-client/**/build/
+*.tmp
+
+# --- Editors / IDEs ---
+.idea/
+.vscode/
+*.code-workspace
+
+# --- OS noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs / local config ---
+*.log
+.env
+.env.local
